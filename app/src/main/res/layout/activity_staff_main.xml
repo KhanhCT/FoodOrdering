@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.deepblue.miniproject2_1451032.Staff_main">
+
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:paddingRight="150dp"
+        android:paddingLeft="20dp"
+        android:text="Staff"
+        android:drawableStart="@drawable/croupier"
+        android:drawableLeft="@drawable/croupier"
+        android:onClick="moveToView1"
+        android:backgroundTint="#FAFAFA"
+        android:textColor="#9E9E9E"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        />
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:text="Kitchen"
+        android:backgroundTint="#FAFAFA"
+        android:textStyle="normal"
+        android:paddingRight="125dp"
+        android:paddingLeft="20dp"
+        android:drawableStart="@drawable/cooker"
+        android:drawableLeft="@drawable/cooker"
+        android:textAllCaps="false"
+        android:textColor="#9E9E9E"
+        android:textSize="18dp"
+        android:onClick="moveToKitchen"/>
+
+</LinearLayout>

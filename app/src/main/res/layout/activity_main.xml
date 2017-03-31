@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.deepblue.miniproject2_1451032.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:id="@+id/manager"
+            android:text="Manager"
+            android:backgroundTint="#FAFAFA"
+            android:textStyle="normal"
+            android:paddingRight="120dp"
+            android:paddingLeft="20dp"
+            android:drawableStart="@drawable/businessman"
+            android:drawableLeft="@drawable/businessman"
+            android:textAllCaps="false"
+            android:onClick="moveToManager"
+            android:textColor="#9E9E9E"
+            android:textSize="18dp"
+            />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:paddingRight="150dp"
+            android:paddingLeft="20dp"
+            android:text="Staff"
+            android:drawableStart="@drawable/croupier"
+            android:drawableLeft="@drawable/croupier"
+            android:onClick="moveToView1"
+            android:backgroundTint="#FAFAFA"
+            android:textColor="#9E9E9E"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            />
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:text="Kitchen"
+            android:backgroundTint="#FAFAFA"
+            android:textStyle="normal"
+            android:paddingRight="125dp"
+            android:paddingLeft="20dp"
+            android:drawableStart="@drawable/cooker"
+            android:drawableLeft="@drawable/cooker"
+            android:textAllCaps="false"
+            android:textColor="#9E9E9E"
+            android:textSize="18dp"
+            android:onClick="moveToKitchen"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

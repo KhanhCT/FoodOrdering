@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1046355102919",
+    "firebase_url": "https://miniproject-1360.firebaseio.com",
+    "project_id": "miniproject-1360",
+    "storage_bucket": "miniproject-1360.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046355102919:android:134444023a62ac56",
+        "android_client_info": {
+          "package_name": "com.example.deepblue.miniproject2_1451032"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046355102919-qv2qj6pgie17dmqsrnpo7u926smj78lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL_ib28RiB6ePn9_n7iLuetnC21AUSKkg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
